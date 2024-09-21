@@ -28,7 +28,7 @@ public class Pesoid {
 			 
 			  System.out.println("Deseja continuar? (1 para  ou 0 para sair:)");
 			   continuar=ler.nextInt();
-			} while (continuar!= 0);
+			} while (continuar==1);
 		    ler.close();
 						  
 			 }
